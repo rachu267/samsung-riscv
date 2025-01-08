@@ -9,9 +9,7 @@ College: Vidyavardhaka College of Engineering
 
 Email ID:rachagonddoddashivannavar@gmail.com
 
-GitHub Profile:
-
-LinkedIN Profile: 
+GitHub Profile:https://github.com/rachu267 
 
 ## Task 1: Task is to refer to C based and RISCV based lab videos and execute the task of compiling the C code using gcc and riscv compiler
 
