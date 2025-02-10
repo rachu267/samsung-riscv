@@ -77,8 +77,7 @@ riscv64-unknown-elf-objdump -d sum_1ton.o
 5. riscv64-unknown-elf-objdump: A tool for disassembling RISC-V binaries to examine the code structure and debug it effectively.
 
 
-<details>
-<summary><b>Task 2:</b>Task is to refer to C based and RISCV based lab videos and execute the task of compiling the C code using gcc and riscv compiler simulator</summary>
+#Task 2:</b>Task is to refer to C based and RISCV based lab videos and execute the task of compiling the C code using gcc and riscv compiler simulator</summary>
 <br>
 	
 **Debugging with SPIKE: Comparing -O1 and -Ofast Optimizations**
@@ -113,10 +112,6 @@ riscv64-unknown-elf-objdump -d sum.o
 riscv64-unknown-elf-objdump -d sum.o | less
 ```
 
-
-</details>
-</details>
-<details>
 
 
 
