@@ -166,3 +166,53 @@ This classification provides a detailed mapping of the instruction types based o
 
 
 Task 4:By making use of RISCV Core: Verilog Netlist and Testbench, perform an experiment of Functional Simulation and observe the waveforms
+
+1. Project Overview
+   - This project performs a functional simulation of a RISC-V Core using a Verilog netlist and a testbench.
+   - The goal is to verify the functional correctness of the core by analyzing the simulation results.
+
+2. Prerequisites
+- Install the required simulation tools:
+- Icarus Verilog (iverilog) – To run the Verilog simulation.
+- GTKWave – To visualize the waveform outputs.
+- Ensure that you have access to:
+- The Verilog netlist of the RISC-V core.
+- The testbench for executing the simulation.
+  
+3. Setting Up the Simulation Environment
+- Clone or download the Verilog netlist and testbench files.
+- Install the required tools (e.g., Icarus Verilog, GTKWave).
+- Navigate to the project directory and compile the Verilog files using
+  
+  iverilog -o riscv_sim risc_v_netlist.v testbench.v
+
+  Run the simulation:
+  
+    vvp riscv_sim
+  
+Generate waveform files for analysis:
+
+gtkwave dump.vcd
+
+4. Running the Functional Simulation
+   
+- Load the netlist and testbench into the simulator.
+- Execute the testbench to generate output signals.
+- Verify key signal behaviors such as:
+- Instruction execution
+- Register updates
+- Memory access
+  
+6. Capturing and Analyzing Waveforms
+- Use GTKWave to open the generated VCD file.
+- Observe important signals like PC (Program Counter), register values, and memory accesses.
+- Compare the expected vs. actual results to ensure functional correctness.
+  
+7. Uploading Results to GitHub
+- Save waveform snapshots as .png or .vcd files.
+- Update the README with:
+- Simulation logs
+- Waveform analysis
+
+
+
