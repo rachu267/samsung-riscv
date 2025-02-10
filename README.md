@@ -162,3 +162,7 @@ instruction types.
 
 ---
 This classification provides a detailed mapping of the instruction types based on the given C code.
+
+
+
+Task 4:By making use of RISCV Core: Verilog Netlist and Testbench, perform an experiment of Functional Simulation and observe the waveforms
