@@ -62,19 +62,7 @@ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
  sh
 riscv64-unknown-elf-objdump -d sum_1ton.o
 ```
-6. Use /main in the terminal to locate the main function in the assembly output.
-![assembly_code_snippet](https://github.com/user-attachments/assets/98ebc243-65f5-441a-8e8e-dc1353a18050)
 
-### Explanation of Commands and Options: 
-1. -mabi=lp64: Specifies the Application Binary Interface (ABI) for 64-bit integers, pointers, and long data types, suitable for 64-bit RISC-V architecture.
-
-2. -march=rv64i: Indicates the 64-bit RISC-V base integer instruction set architecture.
-
-3. -O1: Enables basic optimization for better performance without significantly increasing compilation time.
-  
-4. -Ofast: Focuses on maximizing performance by enabling aggressive optimizations, potentially at the cost of standard compliance.
-
-5. riscv64-unknown-elf-objdump: A tool for disassembling RISC-V binaries to examine the code structure and debug it effectively.
 
 
 #Task 2:</b>Task is to refer to C based and RISCV based lab videos and execute the task of compiling the C code using gcc and riscv compiler simulator</summary>
