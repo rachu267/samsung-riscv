@@ -238,6 +238,36 @@ HC-SR04 or JSN-SR04T (for waterproof applications)
 
 
 
+TASK_6:-1. Working Principle
+The system operates using the HC-SR04 ultrasonic sensor (or a similar model), which works on the principle of echolocation (similar to how bats and dolphins navigate).
+
+Triggering the Sensor
+
+The microcontroller (Samsung RISC-V) sends a high pulse (5V) to the TRIG pin of the ultrasonic sensor.
+This pulse should last at least 10 microseconds.
+Emitting Ultrasonic Waves
+
+The sensor emits ultrasonic sound waves at 40 kHz.
+These waves travel through the air and reflect back if they hit an object.
+Receiving the Echo
+
+The ECHO pin of the sensor remains high as long as the sound waves travel back.
+The time for which the ECHO pin remains high is measured by the microcontroller.
+where Speed of Sound ≈ 343 m/s
+The division by 2 is because the sound waves travel to the object and return.
+Object Detection
+
+If the calculated distance is below a threshold (e.g., 10 cm), an alert is triggered using a buzzer, LED, or display.
+
+![ultra](https://github.com/user-attachments/assets/92132cd9-fb89-469b-9ea5-41102053dae2)
+
+![ultrasonic photo](https://github.com/user-attachments/assets/f6d1b0a8-9529-4690-8ccc-9cfcd59c137f)
+
+
+
+
+
+
 
 
 
