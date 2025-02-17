@@ -227,6 +227,18 @@ HC-SR04 or JSN-SR04T (for waterproof applications)
 -Wires & Jumper Cables
 -PCB or Breadboard (for circuit prototyping)
 
+![Screenshot 2025-02-17 235338 - Copy](https://github.com/user-attachments/assets/7788aa90-17bb-4943-8b29-57b8885a424c)
+
+![Screenshot 2025-02-17 235241](https://github.com/user-attachments/assets/2d46a589-5471-4c7d-a82f-12e21eac6d05)
+
+![Screenshot 2025-02-18 000006](https://github.com/user-attachments/assets/6be01f95-cc70-4dcc-9455-82c19d67c5af)
+
+![Screenshot 2025-02-18 000818](https://github.com/user-attachments/assets/c25939a0-015a-4743-9ccc-cd6dd2429721)
+
+
+
+
+
 
 
 
