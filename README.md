@@ -143,6 +143,21 @@ instruction types.
    - Similar to J-type but used for function calls.
    - Example: The main() function or calls to printf and scanf might involve UJ-type instructions like JAL (jump and link).
 
+     ![u type](https://github.com/user-attachments/assets/20546a03-4725-4219-a148-f6a3b17ebb3b)
+
+     ![j type](https://github.com/user-attachments/assets/b9f6cb0b-07fa-433e-b928-81efc739ebfe)
+
+     ![r type](https://github.com/user-attachments/assets/75dda646-6a50-4ac3-bd3d-58539e6acad6)
+
+     ![s type](https://github.com/user-attachments/assets/0242ffc8-e33b-4734-a590-b8a7b7a97d1a)
+
+     ![u type](https://github.com/user-attachments/assets/52a47773-e6c8-4827-b72d-e9c38e047f81)
+
+
+
+
+
+
 ---
 This classification provides a detailed mapping of the instruction types based on the given C code.
 
