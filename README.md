@@ -199,3 +199,37 @@ gtkwave dump.vcd
 
 
 
+
+
+
+TASK_5:-Brief Overview of the Object Detector Using Ultrasonic Sensor with Samsung RISC-V
+This project aims to develop an object detection system using an ultrasonic sensor interfaced with a Samsung RISC-V microcontroller. The system will measure the distance between the sensor and nearby objects, triggering an alert when an obstacle is detected within a predefined range.
+The Samsung RISC-V processor will process the sensor data and provide real-time feedback, which can be displayed on an LCD screen, LED indicators, or a buzzer for alert signals. The system can be used in various applications, such as collision avoidance in robotics, security systems, and automated parking assistance.
+
+List of Components:-
+1. Microcontroller (Samsung RISC-V)
+A Samsung RISC-V-based development board (e.g., Samsung RISC-V SoC or Evaluation Kit)
+2. Ultrasonic Sensor
+HC-SR04 or JSN-SR04T (for waterproof applications)
+3. Display (Optional)
+-16x2 LCD (with I2C module)
+-OLED Display (for graphical representation)
+4. Audio/Visual Alerts
+-Buzzer (for sound alerts)
+-LEDs (for visual indication)
+5. Power Supply
+-5V/3.3V Power Source (Battery or USB)
+6. Communication & Interfaces
+-I2C or SPI modules (for display and external peripherals)
+-GPIO pins (for sensor and actuator connections)
+7. Supporting Components
+-Resistors and Capacitors (for noise reduction and stability)
+-Wires & Jumper Cables
+-PCB or Breadboard (for circuit prototyping)
+
+
+
+
+
+
+
