@@ -223,6 +223,8 @@ Water level monitoring is essential for applications such as water tank automati
 Objective:
 The primary goal of this system is to accurately monitor and display water levels while enabling automation features such as alerts or motor control. The ultrasonic sensor sends sound pulses, which bounce off the water surface and return to the sensor. The time taken for the pulse to return is measured and converted into distance using the speed of sound
 
+![Screenshot 2025-02-28 080533](https://github.com/user-attachments/assets/251acc21-36aa-4432-ac8f-19a1a054bd5d)
+
 ![Screenshot 2025-02-28 074441](https://github.com/user-attachments/assets/0589f20c-31e2-45f2-a374-8157aca1f81d)
 
 ![Screenshot 2025-02-28 074504](https://github.com/user-attachments/assets/2c7a550c-c94f-41c7-b3e1-a034a459fac0)
@@ -269,7 +271,7 @@ Programming Language: C (for microcontroller-based RISC-V) or Verilog (for FPGA-
 
 ![p3](https://github.com/user-attachments/assets/7545880d-8081-4e67-a7aa-d6a686e49dc4)
 
-![Screenshot 2025-02-28 080533](https://github.com/user-attachments/assets/251acc21-36aa-4432-ac8f-19a1a054bd5d)
+
 
 
 
