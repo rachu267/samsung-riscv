@@ -5,7 +5,7 @@ The program is based on the RISC-V architecture and uses open-source tools for V
 
 Name: Rachagond Doddashivannavar
 
-College: Vidyavardhaka College of Engineering
+College: Vidyavardhaka College of Engineering mysuru
 
 Email ID:rachagonddoddashivannavar@gmail.com
 
