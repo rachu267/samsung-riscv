@@ -192,6 +192,8 @@ Generate waveform files for analysis:
 
 gtkwave dump.vcd
 
+
+
 4. Running the Functional Simulation
    
 - Load the netlist and testbench into the simulator.
@@ -211,6 +213,31 @@ gtkwave dump.vcd
 - Update the README with:
 - Simulation logs
 - Waveform analysis
+
+  ![ADD](https://github.com/user-attachments/assets/7f06d824-ff05-458d-83d5-3817cbdd1b27)
+
+  ![ADDI](https://github.com/user-attachments/assets/75c27c89-db51-4ae5-affc-6558e7ed1f38)
+
+  ![AND](https://github.com/user-attachments/assets/3361404e-99d9-42bc-be18-fb1899cb3907)
+
+  ![BEQ](https://github.com/user-attachments/assets/88170442-ca34-446e-98f2-d1ee79526b52)
+
+  ![FULL 5 STAGE](https://github.com/user-attachments/assets/cb65d60d-83a0-49ee-ad60-99eddb1c383d)
+
+  ![OR](https://github.com/user-attachments/assets/be02f34f-0720-41dd-b49f-c3b64058c5bc)
+
+  ![XOR](https://github.com/user-attachments/assets/d109f624-f3c5-417a-a93f-dcec2a6847bd)
+
+
+
+
+
+
+  
+
+
+
+  
 
 
 
