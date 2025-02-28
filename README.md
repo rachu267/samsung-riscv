@@ -217,75 +217,59 @@ gtkwave dump.vcd
 
 
 
-TASK_5:-Brief Overview of the Object Detector Using Ultrasonic Sensor with Samsung RISC-V
-This project aims to develop an object detection system using an ultrasonic sensor interfaced with a Samsung RISC-V microcontroller. The system will measure the distance between the sensor and nearby objects, triggering an alert when an obstacle is detected within a predefined range.
-The Samsung RISC-V processor will process the sensor data and provide real-time feedback, which can be displayed on an LCD screen, LED indicators, or a buzzer for alert signals. The system can be used in various applications, such as collision avoidance in robotics, security systems, and automated parking assistance.
+TASK_5:-Introduction: Water Level Sensor Using RISC-V and Ultrasonic Sensor
+Water level monitoring is essential for applications such as water tank automation, irrigation management, and flood detection. This project involves developing a water level detection system using a RISC-V development board and an ultrasonic sensor (e.g., HC-SR04). The system measures the water level by calculating the distance between the sensor and the water surface, then processes the data using the RISC-V board.
 
-List of Components:-
-1. Microcontroller (Samsung RISC-V)
-A Samsung RISC-V-based development board (e.g., Samsung RISC-V SoC or Evaluation Kit)
-2. Ultrasonic Sensor
-HC-SR04 or JSN-SR04T (for waterproof applications)
-3. Display (Optional)
--16x2 LCD (with I2C module)
--OLED Display (for graphical representation)
-4. Audio/Visual Alerts
--Buzzer (for sound alerts)
--LEDs (for visual indication)
-5. Power Supply
--5V/3.3V Power Source (Battery or USB)
-6. Communication & Interfaces
--I2C or SPI modules (for display and external peripherals)
--GPIO pins (for sensor and actuator connections)
-7. Supporting Components
--Resistors and Capacitors (for noise reduction and stability)
--Wires & Jumper Cables
--PCB or Breadboard (for circuit prototyping)
+Objective:
+The primary goal of this system is to accurately monitor and display water levels while enabling automation features such as alerts or motor control. The ultrasonic sensor sends sound pulses, which bounce off the water surface and return to the sensor. The time taken for the pulse to return is measured and converted into distance using the speed of sound
 
-![Screenshot 2025-02-17 235338 - Copy](https://github.com/user-attachments/assets/7788aa90-17bb-4943-8b29-57b8885a424c)
+![Screenshot 2025-02-28 074441](https://github.com/user-attachments/assets/0589f20c-31e2-45f2-a374-8157aca1f81d)
 
-![Screenshot 2025-02-17 235241](https://github.com/user-attachments/assets/2d46a589-5471-4c7d-a82f-12e21eac6d05)
+![Screenshot 2025-02-28 074504](https://github.com/user-attachments/assets/2c7a550c-c94f-41c7-b3e1-a034a459fac0)
 
-![Screenshot 2025-02-18 000006](https://github.com/user-attachments/assets/6be01f95-cc70-4dcc-9455-82c19d67c5af)
-
-![Screenshot 2025-02-18 000818](https://github.com/user-attachments/assets/c25939a0-015a-4743-9ccc-cd6dd2429721)
+![Screenshot 2025-02-28 074518](https://github.com/user-attachments/assets/bc3d8b3c-83a9-43db-b4f4-3df263b80256)
 
 
+TASK_6:-Project: Water Level Sensor Using RISC-V and Ultrasonic Sensor
+1. Project Overview
+This project focuses on designing a water level monitoring system using a RISC-V development board and an ultrasonic sensor (HC-SR04). The system continuously measures the water level in a container or tank by detecting the distance between the sensor and the water surface. The collected data can be displayed on an LCD/OLED screen, sent to a microcontroller for decision-making, or used to trigger alarms or motor control systems.
+
+2. Working Principle
+The system works by utilizing the time-of-flight principle of an ultrasonic sensor:
+
+The HC-SR04 sensor sends out a high-frequency sound pulse.
+The pulse travels toward the water surface and reflects back.
+The RISC-V board measures the time taken for the echo to return.
+Using the speed of sound, the system calculates the distance to the water surface.
+The water level is determined by subtracting this distance from the total tank height.
+Based on the water level, the system can display values, trigger alarms, or activate a motor pump for automation.
+3. Hardware Components
+-RISC-V Development Board (e.g., HiFive1, Sipeed Longan Nano, or FPGA-based RISC-V core)
+-Ultrasonic Sensor (HC-SR04) for distance measurement
+-5V Power Supply for sensor and board operation
+-LCD/OLED Display (optional) to show water level readings
+-Bzzer/LED (optional) for alert notifications
+-Relay Module (optional) to control a water pump based on threshold levels
+4. Software Implementation
+Programming Language: C (for microcontroller-based RISC-V) or Verilog (for FPGA-based RISC-V)
 
 
-TASK_6:-1. Working Principle
-The system operates using the HC-SR04 ultrasonic sensor (or a similar model), which works on the principle of echolocation (similar to how bats and dolphins navigate).
+-Triggering the ultrasonic sensor
+-Measuring the echo response time
+-Calculating the water level
+-Displaying the water level on an LCD or sending it to a remote system
+-Controlling alerts or pumps when predefined thresholds are reached
+5. Applications
+-Automatic water tank monitoring in households and industries
+-Smart irrigation systems for agriculture
+-Flood detection and water level monitoring in reservoirs and rivers
+-Water conservation systems for optimized usage
 
-Triggering the Sensor
+![project](https://github.com/user-attachments/assets/24fbae41-524f-4281-9504-dc13a45d6903)
 
-The microcontroller (Samsung RISC-V) sends a high pulse (5V) to the TRIG pin of the ultrasonic sensor.
-This pulse should last at least 10 microseconds.
-Emitting Ultrasonic Waves
+![p3](https://github.com/user-attachments/assets/7545880d-8081-4e67-a7aa-d6a686e49dc4)
 
-The sensor emits ultrasonic sound waves at 40 kHz.
-These waves travel through the air and reflect back if they hit an object.
-Receiving the Echo
-
-The ECHO pin of the sensor remains high as long as the sound waves travel back.
-The time for which the ECHO pin remains high is measured by the microcontroller.
-where Speed of Sound ≈ 343 m/s
-The division by 2 is because the sound waves travel to the object and return.
-Object Detection
-
-If the calculated distance is below a threshold (e.g., 10 cm), an alert is triggered using a buzzer, LED, or display.
-
-![ultra](https://github.com/user-attachments/assets/92132cd9-fb89-469b-9ea5-41102053dae2)
-
-![ultrasonic photo](https://github.com/user-attachments/assets/f6d1b0a8-9529-4690-8ccc-9cfcd59c137f)
-
-
-
-
-
-
-
-
-
+![Screenshot 2025-02-28 080533](https://github.com/user-attachments/assets/251acc21-36aa-4432-ac8f-19a1a054bd5d)
 
 
 
